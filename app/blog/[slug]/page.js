@@ -15,7 +15,7 @@ export default function ProjectPage({ params }) {
     return (
       <div className="mx-auto max-w-[1000px] w-full h-screen py-6 flex flex-col items-center min-h-screen">
       <nav className="flex items-center justify-between w-full">
-        <Image src="/logo.svg" width={130} height={0} className="h-auto" alt="logo" />
+        <Link href="/"><Image src="/logo.svg" width={130} height={0} className="h-auto" alt="logo" /></Link>
         <div className="flex items-center space-x-4">
           <div className="flex items-center justify-center">
             <svg class="vuesax-outline-search-normal2" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
