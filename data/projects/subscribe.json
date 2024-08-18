@@ -1,0 +1,7 @@
+{
+  "name": "subscribe",
+  "description": "A web application that allow users to track their subscriptions (Netflix, Spotify, Apple Music, Deezer) effortlessly ...",
+  "image" : "/subscribe.png",
+  "link": "http://subscribebucket.s3-website.eu-north-1.amazonaws.com",
+  "tags": ["Tailwind css", "React js", "Laravel"] 
+}

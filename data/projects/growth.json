@@ -1,0 +1,7 @@
+{
+    "name": "Growth",
+    "description": "A simple to-do list web application, i made it to practice my knowledge in Laravel...",
+    "image" : "/growthApp.png",
+    "link": "https://github.com/ChristianLudovic/todo-list-in-laravel-and-livewire",
+    "tags": ["Livewire", "Tailwind css", "Laravel"]
+}

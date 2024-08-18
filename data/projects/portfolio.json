@@ -1,0 +1,7 @@
+{
+    "name": "Blog & Portfolio",
+    "description": "A place where i can share all the things that are in my mind, and my work...",
+    "image" : "/portfolio.png",
+    "link": "https://github.com/ChristianLudovic/todo-list-in-laravel-and-livewire",
+    "tags": ["Next js", "Tailwind css", "JSon"]
+}
