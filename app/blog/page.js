@@ -45,7 +45,7 @@ export default function BlogPage() {
                     <h2 className="text-[22px] font-bold">{article.name}</h2>
                     <p>{article.description}</p>
                 </div>
-                <Link legacyBehavior href={`/blog/${article.slug}`} ><a className="block underline">Learn more</a></Link>
+                <Link legacyBehavior href={`/blog/${article.slug}`} ><a className="block underline">Read now</a></Link>
             </div>
           ))}
         </div>

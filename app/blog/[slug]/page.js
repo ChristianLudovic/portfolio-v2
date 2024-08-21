@@ -82,13 +82,9 @@ export default function ProjectPage({ params }) {
                 }
             })}
           </div>
-          
-          <div>
-            Tags: {article.tags.join(', ')}
-          </div>
         </div>
       </main>
-      <footer className="flex justify-center mt-[10px] flex-shrink">
+      <footer className="flex justify-center py-[20px] mt-[5px] flex-shrink">
         <p className="flex justify-center"> 
           © 2023, <Link legacyBehavior href="mailto:talchrist10@gmail.com"><a className=" underline"> Christian Ludovic</a></Link>
         </p>
