@@ -1,7 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { tomorrow } from 'react-syntax-highlighter/dist/cjs/styles/prism';

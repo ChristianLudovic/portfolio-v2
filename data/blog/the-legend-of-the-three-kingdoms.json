@@ -7,10 +7,6 @@
     "description": "Once upon a time, in a distant land, there was a kingdom called Glacium, known for its vast crystal mountains and snow-covered forests.",
     "image" : "/kingdom.png",
     "content": [
-      {
-        "type" : "heading",
-        "text" : "Chapter 1: The Kingdom of Glacium and the Mystery of the Promise"
-      },
 
       {
         "type": "paragraph",
@@ -33,11 +29,6 @@
       },
 
       {
-        "type": "heading",
-        "text" : "Chapter 2: The First Quest of Orion"
-      },
-
-      {
         "type": "paragraph",
         "text": "King Aldemar knew he needed a brave and capable knight to test this new magic. He called upon Orion the Unyielding, the most loyal and fearless knight in all of Glacium. Orion was tasked with recovering the Shard of Hope from the cursed caverns of Obscurya, a perilous journey that few had ever returned from."
       },
@@ -53,17 +44,6 @@
       },
 
       {
-        "type": "code",
-        "language": "javascript",
-        "content": "const shardOfHopeQuest = new Promise((resolve, reject) => {\n  let success = true; // Imagine this is determined by the outcome of the quest\n\n  if (success) {\n    resolve('Orion has recovered the Shard of Hope!');\n  } else {\n    reject('Orion failed to recover the Shard of Hope.');\n  }\n});\n\n// The promise is now in a \"Suspense\" state"
-      },
-
-      {
-        "type": "heading",
-        "text": "Chapter 3: The Chain of Fates"
-      },
-
-      {
         "type": "paragraph",
         "text": "While Orion ventured deep into the caverns of Obscurya, King Aldemar received urgent news from another part of his kingdom. The Tear of Luna, a sacred artifact kept at the summit of the Eternal Mountains, was in danger of being lost forever. Knowing he could not wait for Orion’s return, Aldemar called upon Seraphina the Wise, a mage of unmatched skill and wisdom."
       },
@@ -76,17 +56,6 @@
       {
         "type": "paragraph",
         "text": "The kingdom’s fate now rested on these intertwined promises. The people of Glacium could feel the tension as the promises hovered over the castle, each waiting for the outcome of the other."
-      },
-
-      {
-        "type": "code",
-        "language": "javascript",
-        "content": "shardOfHopeQuest\n  .then((message) => {\n    console.log(message); // \"Orion has recovered the Shard of Hope!\"\n    return new Promise((resolve, reject) => {\n      let success = false; // The outcome of Seraphina's quest\n\n      if (success) {\n        resolve('Seraphina has recovered the Tear of Luna!');\n      } else {\n        reject('Seraphina failed to recover the Tear of Luna.');\n      }\n    });\n  })\n  .then((message) => {\n    console.log(message); // This would only run if Seraphina's quest succeeds\n  })\n  .catch((error) => {\n    console.error(error); // This would catch any failure in the chain\n  });"
-      },
-
-      {
-        "type": "heading",
-        "text": "Chapter 4: The Outcome of the Quests"
       },
 
       {
@@ -110,18 +79,6 @@
       },
 
       {
-        "type": "code",
-        "language": "javascript",
-        "content": "shardOfHopeQuest\n  .then((message) => {\n    console.log(message); // \"Orion has recovered the Shard of Hope!\"\n    return new Promise((resolve, reject) => {\n      let success = false;\n\n      if (success) {\n        resolve('Seraphina has recovered the Tear of Luna!');\n      } else {\n        reject('Seraphina failed to recover the Tear of Luna.');\n      }\n    });\n  })\n  .catch((error) => {\n    console.error(error); // \"Seraphina failed to recover the Tear of Luna.\"\n  });"
-
-      },
-
-      {
-        "type": "heading",
-        "text": "Chapter 5: The New Era of Glacium"
-      },
-
-      {
         "type": "paragraph",
         "text": "Despite the setbacks, the Promise of Fate brought a new era of order and understanding to Glacium. King Aldemar could now assign the most complex tasks, confident that each promise would reveal the outcome clearly—whether in Victory or Despair."
       },
@@ -129,11 +86,6 @@
       {
         "type": "paragraph",
         "text": "The people of Glacium no longer feared the Tangle of Fate. They knew that every quest, every mission, would be guided by the clarity of the promises forged by Lysera. And so, the kingdom of Glacium, once shrouded in confusion, became a beacon of peace and prosperity, with every promise—a story of its own."
-      },
-
-      {
-        "type": "heading",
-        "text": "Conclusion"
       },
 
       {
