@@ -1,3 +1,5 @@
+
+import Form from '@/components/form';
 import fs from 'fs';
 import path from 'path';
 import React from 'react';
@@ -9,6 +11,7 @@ export default function ProjectPage({ params }) {
     const articlesDirectory = path.join(process.cwd(), 'data/blog');
     const filePath = path.join(articlesDirectory, `${slug}.json`);
     const article = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
 
     return (
       <div className="md:px-2 mx-auto max-w-[1000px] w-full py-6">
@@ -32,7 +35,7 @@ export default function ProjectPage({ params }) {
                   case 'list':
                       return (
                       <ul key={index}>
-                          {bloc.items.map((item, i) => <li key={i}>{item}</li>)}
+                          {bloc.items.map((item, i) => <li key={i} className='font-light text-xl leading-[170%] md:text-[24px]'>{item}</li>)}
                       </ul>
                       )
                   case 'code':
@@ -43,7 +46,7 @@ export default function ProjectPage({ params }) {
                                   style={tomorrow}
                                   customStyle={{
                                   padding: '1.5rem',
-                                  fontSize: '1.1rem',
+                                  fontSize: '1rem',
                                   lineHeight: '1.5',
                                   borderRadius: '0.5rem',
                                   }}
@@ -62,10 +65,7 @@ export default function ProjectPage({ params }) {
         <footer className="flex justify-col mx-auto max-w-[700px] w-full py-6">
           <div className='w-full space-y-4'>
             <p className='text-lg md:text-xl font-light'>Subscribe to be notified and never miss one!</p>
-            <div className='flex space-x-3 w-full'>
-              <input type='email' placeholder='Your email address...' className='w-full border border-stone-300 rounded-md py-2 px-4 font-light text-lg'/>
-              <button className='bg-black text-white rounded-md px-4 py-2 ml-2'>Subscribe</button>
-            </div>
+            <Form />
           </div>
         </footer>
       </div>

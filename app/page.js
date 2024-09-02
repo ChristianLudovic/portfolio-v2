@@ -6,16 +6,15 @@ import path from 'path';
 export default function Home() {
 
   const articlesDirectory = path.join(process.cwd(), 'data/blog');
-    const filenames = fs.readdirSync(articlesDirectory);
-
-    const articles = filenames.map((filename) => {
-        const filePath = path.join(articlesDirectory, filename);
-        const fileContents = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        return {
-            slug: filename.replace('.json', ''),
-            ...fileContents,
-        };
-    });
+  const filenames = fs.readdirSync(articlesDirectory);
+  const articles = filenames.map((filename) => {
+      const filePath = path.join(articlesDirectory, filename);
+      const fileContents = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      return {
+          slug: filename.replace('.json', ''),
+          ...fileContents,
+      };
+  });
 
   return (
     <div className="mx-auto max-w-[1000px] w-full h-max flex flex-col items-center min-h-screen">
