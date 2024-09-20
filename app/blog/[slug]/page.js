@@ -15,12 +15,12 @@ export default function ProjectPage({ params }) {
 
     return (
       <div className="md:px-2 mx-auto max-w-[1000px] w-full py-6">
-        <main className="mx-auto max-w-[700px] w-full space-y-[32px] mt-[38px]  flex-grow pb-9 border-b  border-solid border-stone-300">
-          <div className='space-y-[24px]'>
-              <h1 className="text-3xl md:text-4xl font-normal leading-[130%]">{article.name}</h1>
+        <main className="mx-auto max-w-[700px] w-full space-y-[18px] mt-[38px]  flex-grow pb-9 border-b  border-solid border-stone-300">
+          <div className='space-y-[8px]'>
+              <h1 className="text-lg text-blue-700 font-normal leading-[130%]">{article.name}</h1>
               <div className=''>
-                  <span className='text-xl md:text-[20px] md:text-lg italic font-light'>{article.date} / </span>
-                  <span className='text-xl md:text-[20px] italic font-light'>{article.readingTime}</span>
+                  <span className='text-sm italic font-light'>{article.date} / </span>
+                  <span className='text-sm italic font-light'>{article.readingTime}</span>
               </div>
           </div>
           
@@ -29,13 +29,13 @@ export default function ProjectPage({ params }) {
               {article.content.map((bloc, index) => {
                   switch(bloc.type) {
                   case 'paragraph':
-                      return <p key={index} className='font-light text-xl leading-[170%] md:text-[24px]'>{bloc.text}</p>
+                      return <p key={index} className='text-md text-gray-600 leading-[170%'>{bloc.text}</p>
                   case 'heading':
-                      return <h2 className='text-[24px] md:text-[28px] font-normal leading-[130%]' key={index}>{bloc.text}</h2>
+                      return <h2 className='text-md font-medium leading-[130%]' key={index}>{bloc.text}</h2>
                   case 'list':
                       return (
                       <ul key={index}>
-                          {bloc.items.map((item, i) => <li key={i} className='font-light text-xl leading-[170%] md:text-[24px]'>{item}</li>)}
+                          {bloc.items.map((item, i) => <li key={i} className='text-md text-gray-600 leading-[170%]'>{item}</li>)}
                       </ul>
                       )
                   case 'code':
@@ -46,7 +46,7 @@ export default function ProjectPage({ params }) {
                                   style={tomorrow}
                                   customStyle={{
                                   padding: '1.5rem',
-                                  fontSize: '1rem',
+                                  fontSize: '0.8rem',
                                   lineHeight: '1.5',
                                   borderRadius: '0.5rem',
                                   }}
@@ -64,7 +64,7 @@ export default function ProjectPage({ params }) {
         </main>
         <footer className="flex justify-col mx-auto max-w-[700px] w-full py-6">
           <div className='w-full space-y-4'>
-            <p className='text-lg md:text-xl font-light'>Subscribe to be notified and never miss one!</p>
+            <p className='text-md font-light'>Subscribe to be notified and never miss one!</p>
             <Form />
           </div>
         </footer>

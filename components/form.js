@@ -31,15 +31,15 @@ export default function SubscriptionForm() {
 
     return(
         <>
-            <form className='flex space-x-3 w-full' onSubmit={handleSubmit}>
+            <form className='flex space-x-2 w-full' onSubmit={handleSubmit}>
                 <input 
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)} 
                 placeholder='Your email address...' 
-                className='w-full border border-stone-300 rounded-md py-2 px-4 font-light text-lg'
+                className='w-full border border-stone-300 rounded-md py-2 px-4 font-light text-md'
                 />
-                <button className='bg-black text-white rounded-md px-4 py-2 ml-2' type="submit" disabled={isLoading}>{isLoading ? 'Subscribing...' : 'Subscribe'}</button>
+                <button className='bg-black text-white rounded-md px-4 py-2 ml-2 tex-sm' type="submit" disabled={isLoading}>{isLoading ? 'Subscribing...' : 'Subscribe'}</button>
             </form>
             {message && <p>{message}</p>}
         </>
