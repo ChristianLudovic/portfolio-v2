@@ -41,6 +41,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script defer data-domain="chrisfaciledev.me" src="https://plausible.io/js/script.js"></script>
+      </head>
       <body className={`${Satoshi.className} px-6 relative`} >{children}</body>
     </html>
   );
