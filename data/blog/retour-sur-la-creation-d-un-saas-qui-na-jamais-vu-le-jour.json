@@ -1,0 +1,158 @@
+{
+  "slug": "retour-sur-la-creation-d-un-saas-qui-na-jamais-vu-le-jour",
+  "translations": {
+    "fr": {
+      "name": "Retour sur la création d'un SaaS qui n'a jamais vu le jour",
+      "description": "Ces derniers annees le mot Saas (software as a service) est l'un des mots les plus utilisee dans la communaute des dev",
+      "date": "23 septembre 2024",
+      "readingTime": "~ 7 min lecture",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ces dernières années, le terme SaaS (Software as a Service) est devenu omniprésent dans la communauté des développeurs. Certains le considèrent comme une méthode sûre pour générer des revenus avec peu de ressources, tandis que d'autres y voient un moyen d'acquérir rapidement des compétences en travaillant sur un projet qui a de la valeur à leurs yeux, ce qui les motive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans cette dynamique, j'ai décidé de me faire ma propre idée et de créer mon propre SaaS. J'ai passé beaucoup de temps à réfléchir à cette solution magique qui devait révolutionner le secteur (non, pas vraiment ; j'étais plutôt en quête d'une solution qui apporterait une valeur, même minime). Après quelques semaines de réflexion, j'ai opté pour un système de gestion des abonnements (comme ceux de Deezer, Spotify, Netflix...), car cela répondait également à un problème personnel. Je voulais recevoir un e-mail m'informant quelques jours avant la date de renouvellement d'un service, afin de pouvoir annuler cet abonnement en fonction de mon budget du mois à venir."
+        },
+        {
+          "type": "paragraph",
+          "text": "J'ai donc commencé avec cette idée et trouvé un nom pour le projet : SubscribeMe, qui est devenu par la suite Subscribe. J'ai passé quelques jours à concevoir le logo et les interfaces utilisateurs sur Figma. J'ai également consacré du temps à faire des benchmarks pour voir comment me positionner par rapport aux autres projets similaires et quelles fonctionnalités ajouter pour me démarquer et être réellement innovant. Une fois tout cela établi, je me suis lancé dans la phase de développement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Je me suis vite rendu compte que je n'avais pas les compétences techniques nécessaires pour construire quelque chose d'aussi complexe seul. J'ai donc fait appel à un ami (s/o Ulrich Nguening), qui avait plus d'expérience que moi dans ce domaine. Nous avons décidé de travailler ensemble, organisant des appels pour discuter des choix technologiques (React pour le front-end et Laravel pour le back-end) et nous partageant les tâches. Cependant, je n'avais jamais utilisé React ni Laravel auparavant, ce qui m'a demandé du temps pour apprendre."
+        },
+        {
+          "text": "paragraph",
+          "type": "Un mois plus tard, nous avons enfin commencé l'intégration des interfaces et la mise en place du backend. Nous avons fixé des délais que nous n'avons pas respectés et continué à ajouter des fonctionnalités pendant l'intégration. À un moment donné, nous avons commencé à perdre notre motivation car ce projet absorbait notre temps et notre énergie. Nous avons donc décidé de le mettre en pause avant d'y revenir quelques semaines plus tard."
+        },
+        {
+          "type": "paragraph",
+          "text": "Après environ quatre ou cinq mois, nous avions enfin un MVP fonctionnel en environnement local. Nous avons décidé de déployer une version test sur les offres gratuites d'AWS. Cependant, une fois déployée, nous avons constaté que cela ne fonctionnait pas vraiment comme prévu ; il restait encore beaucoup de bugs à corriger. Nous avons donc mis le projet en standby, avec l'idée qu'il pourrait être repris un jour, mais ce n'est pas dans ma feuille de route actuelle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Maintenant que le contexte est posé, voici quelques conseils que j'aurais aimé recevoir au début de ce projet :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Une fonctionnalité est largement suffisante : On a souvent tendance à croire que plus on a de fonctionnalités sur notre projet, plus il intéressera les utilisateurs. La vérité est que les utilisateurs ne se servent généralement que de 20 % des fonctionnalités disponibles dans une application ; le reste représente juste des coûts supplémentaires ou des bugs",
+            "2. Le produit parfait est un mythe : Il est essentiel d'expédier le MVP le plus rapidement possible. Un produit se construit dans le temps, c'est pourquoi il existe des versions bêta pour nos applications quotidiennes. Plus vite vous recevrez les retours des utilisateurs sur votre produit, plus rapidement vous pourrez évoluer.",
+            "3. La communication autour du produit est importante : Aujourd'hui, la méthode la plus courante consiste à développer son produit en public, c'est-à-dire communiquer sur vos avancées sur les réseaux sociaux.",
+            "4. Ne pas surestimer son produit : Lorsqu'on commence à créer quelque chose, il est facile de penser que cela va révolutionner la vie humaine. Évitez cette pensée car si personne n'adopte votre solution, vous pourriez rapidement tomber dans la dépression.",
+            "5. La stack utilisée n'est pas si importante : Si la stack choisie fait le travail requis, c'est l'essentiel. Ne privilégiez pas une technologie par rapport à une autre simplement parce qu'elle a mieux fonctionné ailleurs ; choisissez une stack que vous maîtrisez."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous avez lu jusqu'ici, j'espère que cela vous a plu et que vous avez retenu quelques conseils intéressants. À la prochaine !"
+        }
+      ]
+    },
+    "en": {
+      "name": "A look back at the creation of a saas that never saw the light of day",
+      "description": "In recent years, the term SaaS (Software as a Service) has become ubiquitous in the developer community. Some view it as a safe way to generate income with minimal resources, while others see the creation of SaaS as a means to quickly acquire skills by working on something that holds value for them, which keeps them motivated.",
+      "date": "23 september 2024",
+      "readingTime": "~ 7 min read",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In recent years, the term SaaS (Software as a Service) has become ubiquitous in the developer community. Some view it as a safe way to generate income with minimal resources, while others see the creation of SaaS as a means to quickly acquire skills by working on something that holds value for them, which keeps them motivated."
+        },
+        {
+          "type": "paragraph",
+          "text" : "In this dynamic, I decided to form my own opinion and create my own SaaS. I spent a lot of time thinking about this magical solution that was supposed to revolutionize the industry (not really; I was more in search of a solution that would provide some value, even if minimal). After a few weeks of reflection, I opted for a subscription management system (like those of Deezer, Spotify, Netflix...), as it also addressed a personal issue. I wanted to receive an email notifying me a few days before the renewal date of a service so that I could cancel the subscription based on my budget for the upcoming month."
+        },
+        {
+          "type": "paragraph",
+          "text": "So, I started with this idea and came up with a name for the project: SubscribeMe, which later became Subscribe. I spent several days designing the logo and user interfaces on Figma. I also dedicated time to benchmarking to see how to position myself against other similar projects and what features to add to stand out and be truly innovative. Once all that was established, I launched into the development phase."
+        },
+        {
+          "type": "paragraph",
+          "text": "I quickly realized that I didn’t have the technical skills necessary to build something this complex on my own. So, I called on a friend (s/o Ulrich Nguening), who had been in the game longer than I had, and we decided to work together. We had calls to discuss technology choices (React for the front-end and Laravel for the back-end) and shared tasks. However, I had never used React or Laravel before, which required me to spend additional time learning."
+        },
+        
+        {
+          "text": "paragraph",
+          "type": "A month later, we finally started integrating interfaces and setting up the backend. We set deadlines that we didn’t meet and continued adding features during integration. At one point, we began to lose motivation because this project was consuming our time and energy. So we decided to put it on hold before returning to it a few weeks later."
+        },
+        {
+          "type": "paragraph",
+          "text": "After about four or five months, we finally had a working MVP in a local environment. We decided to deploy a test version using AWS's free tier. However, once deployed, we realized it didn’t work as expected; there were still many bugs to fix. We then put the project on standby, thinking we might revisit it one day, but it’s not currently on my roadmap."
+        },
+        {
+          "type": "paragraph",
+          "text": "Now that the context is set, here are some tips I wish I had received when starting this project:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. One feature is more than enough: We often tend to believe that having more features will make our project more interesting for users. The truth is that users typically only use 20% of the features available in an application; the remaining 80% are just extra costs or additional bugs.",
+            "2. The perfect product is a myth: It’s essential to ship your MVP as quickly as possible. A product is built over time; that’s why beta versions of our everyday apps exist. The sooner you receive user feedback on your product, the faster you can scale.",
+            "3. Communication around the product is important: Today, the most common method is to build your product in public—communicating your progress on social media.",
+            "4. Don’t overestimate your product: When starting to create something, it’s easy to think that what you’re making will revolutionize human life. Avoid this mindset because if no one adopts your solution, you could quickly fall into depression.",
+            "5. The stack used isn’t that important: If the stack you’ve chosen does its job well, that’s what matters most. Don’t prioritize one technology over another just because it worked better for someone else; go with a stack you’re comfortable with."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "If you’ve read this far, I hope you found it enjoyable and that you’ve taken away some interesting insights. Until next time!"
+        }
+      ]
+    },
+    "tr": {
+      "name": "Gün ışığına hiç çıkmamış bir saas'ın yaratılışına bir bakış",
+      "description": "İşte makalenizin Türkçe'ye çevirisi: Son yıllarda, SaaS (Software as a Service) terimi geliştirici topluluğunda her yerde kullanılır hale geldi. Bazıları bunu minimal kaynaklarla gelir elde etmenin güvenli bir yolu olarak görürken, diğerleri SaaS yaratmayı kendileri için değer taşıyan bir şey üzerinde çalışarak hızlı beceri kazanmanın bir yolu olarak görüyor, bu da onları motive ediyor.",
+      "date": "23 Eylül 2024",
+      "readingTime": "~ 7 dakika okuma",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "İşte makalenizin Türkçe'ye çevirisi: Son yıllarda, SaaS (Software as a Service) terimi geliştirici topluluğunda her yerde kullanılır hale geldi. Bazıları bunu minimal kaynaklarla gelir elde etmenin güvenli bir yolu olarak görürken, diğerleri SaaS yaratmayı kendileri için değer taşıyan bir şey üzerinde çalışarak hızlı beceri kazanmanın bir yolu olarak görüyor, bu da onları motive ediyor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bu dinamikte, kendi fikrim ve kendi SaaS'ımı yaratmaya karar verdim. Endüstriyi devrimleştirmesi gereken bu sihirli çözüm hakkında çok zaman harcadım (gerçekten değil; minimal değer sağlayacak bir çözüm arayışındaydım). Birkaç haftalık düşünmenin ardından, kişisel bir soruna da çözüm getirdiği için Deezer, Spotify, Netflix... gibi abonelik yönetim sistemini seçtim. Gelen ay bütçeme göre aboneliği iptal edebilmek için bir hizmeti yenileme tarihinden birkaç gün önce beni bilgilendiren bir e-posta almak istiyordum."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bu fikirle başladım ve projeye SubscribeMe adını verdim, daha sonra Subscribe oldu. Figma'da logo ve kullanıcı arayüzleri tasarlamak için birkaç gün harcadım. Diğer benzer projelere karşı nasıl konumlanacağımı ve gerçekten yenilikçi olmak ve sıyrılmak için hangi özellikleri ekleyeceğimi görmek için de zaman ayırdım. Bunların hepsi belirlenince geliştirme aşamasına geçtim"        
+        },
+        {
+          "type": "paragraph",
+          "text": "Bu kadar karmaşık bir şey yaratmak için gerekli teknik becerilere sahip olmadığımı hızlıca fark ettim. Bu yüzden oyunda benden daha uzun süredir olan bir arkadaşımı (s/o Ulrich Nguening) aradım ve birlikte çalışmaya karar verdik. Teknoloji seçimlerini (ön uç için React, arka uç için Laravel) konuşmak ve görevleri paylaşmak için aramalar yaptık. Ancak daha önce hiç React veya Laravel kullanmamıştım, bu da öğrenmek için ek zaman harcamama neden oldu."
+        },
+        
+        {
+          "text": "paragraph",
+          "type": "Bir ay sonra, nihayet arayüzleri entegre etmeye ve arka ucu kurmaya başladık. Karşılamadığımız son teslim tarihleri belirledik ve entegrasyon sırasında özellikler eklemeye devam ettik. Bir noktada, bu projenin zamanımızı ve enerjimizi yuttuğu için motivasyonumuzu kaybetmeye başladık. Bu yüzden bir süreliğine durdurduk, birkaç hafta sonra geri döndük."
+        },
+        {
+          "type": "paragraph",
+          "text": "Yaklaşık dört veya beş ay sonra, nihayet yerel bir ortamda çalışan bir MVP'miz oldu. AWS'nin ücretsiz katmanını kullanarak bir test sürümü yayınlamaya karar verdik. Ancak yayınlandıktan sonra, beklendiği gibi çalışmadığını fark ettik; düzeltilmesi gereken hala çok fazla hata vardı. Daha sonra projeyi beklemede bıraktık, bir gün geri dönebiliriz ama şu an yol haritamda değil."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bağlam belirlendiğine göre, bu projeye başlarken almak istediğim bazı ipuçları:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Tek bir özellik yeterinden fazla: Daha fazla özellik eklemek projenin kullanıcılar için daha ilgi çekici olacağına inanma eğilimindeyiz. Gerçek şu ki kullanıcılar genellikle bir uygulamada mevcut özelliklerin sadece %20'sini kullanır; kalan %80'i sadece ekstra maliyet veya ek hatalar.",
+            "2. Mükemmel ürün bir efsanedir: MVP'nizi mümkün olduğunca hızlı göndermek esastır. Bir ürün zaman içinde inşa edilir; bu yüzden günlük uygulamalarımızın beta sürümleri vardır. Ürününüz hakkında kullanıcı geri bildirimini ne kadar çabuk alırsanız, o kadar hızlı ölçeklenebilirsiniz.",
+            "3. Ürün etrafındaki iletişim önemlidir: Bugün en yaygın yöntem ürününüzü sosyal medyadaki ilerlemeleriniz hakkında iletişim kurarak halka açık geliştirmektir.",
+            "4. Ürününüzü aşırı tahmin etmeyin: Bir şeyler yaratmaya başlarken, yaptığınız şeyin insan yaşamını devrimleştireceğini düşünmek kolaydır. Çözümünüzü kimse benimsemezse hızla depresyona girebileceğiniz için bu düşünceden kaçının.",
+            "5. Kullanılan yığın o kadar da önemli değil: Seçtiğiniz yığın işini iyi yapıyorsa, en önemlisi budur. Başkası için daha iyi çalıştığı için bir teknolojiyi diğerine tercih etmeyin; kendinizi rahat hissettiğiniz bir yığın kullanın."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Buraya kadar okuduysanız, umarım beğenmişsinizdir ve ilginç bazı öngörüler edinmişsinizdir. Bir sonraki sefere kadar!"
+        }
+      ]
+    }
+  }
+  
+}
